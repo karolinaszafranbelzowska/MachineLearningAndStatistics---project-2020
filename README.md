@@ -1,1 +1,1 @@
-# MachineLearningAndStatistics---project-2020
+# Machine Learning and Statistics---project-2020

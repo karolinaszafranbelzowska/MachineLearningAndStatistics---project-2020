@@ -1,4 +1,4 @@
-![](images/gmit logo.peg)
+![](images/logo_GMIT.jpeg)
 
 # Machine Learning and Statistics---project-2020
 

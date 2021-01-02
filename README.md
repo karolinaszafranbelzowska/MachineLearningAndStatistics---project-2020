@@ -1,3 +1,6 @@
+![GitHub Logo](/images/GMIT logo.jpeg)
+Format: ![Alt Text](url)
+
 images/GMIT logo.jpeg\" width=\"350\" align=
 
 # Machine Learning and Statistics---project-2020

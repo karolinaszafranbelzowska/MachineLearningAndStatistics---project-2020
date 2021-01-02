@@ -1,8 +1,3 @@
-![GitHub Logo](/images/GMIT logo.jpeg)
-Format: ![Alt Text](url)
-
-images/GMIT logo.jpeg\" width=\"350\" align=
-
 # Machine Learning and Statistics---project-2020
 
 ## Higher Diploma in Data Analytics, Lecturer: Ian McLoughlin: ian.mcloughlin@gmit.ie

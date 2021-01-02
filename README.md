@@ -8,3 +8,6 @@
 This repository has been carried out as Assignment of the Machine Learning and Statistics Module of the Higher Diploma In Data Analytics at GMIT.
 
 The assignment was implemented in ... Language.
+
+
+https://github.com/ianmcloughlin/jupyter-teaching-notebooks/blob/master/keras-neurons.ipynb, 02/01/2021

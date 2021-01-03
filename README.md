@@ -10,6 +10,8 @@ This repository has been carried out as Assignment of the Machine Learning and S
 The assignment was implemented in Python Language.
 
 
+## References:
+
 https://github.com/ianmcloughlin/jupyter-teaching-notebooks/blob/master/keras-neurons.ipynb, 02/01/2021
 
 https://keras.io/, 02/01/2021

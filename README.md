@@ -21,3 +21,7 @@ https://en.wikipedia.org/wiki/Wind_turbine, 03/01/2021
 https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python4_DataAnalysis.html, 03/01/2021
 
 https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/, 03/01/2021
+
+https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/, 03/01/2021
+
+https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/, 03/01/221

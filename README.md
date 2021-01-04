@@ -18,6 +18,8 @@ This repository has been carried out as Assignment of the Machine Learning and S
 - ML_and_S_project.2020.ipynb
 - sever.py
 
+## Overwiev
+This project creates a web service that uses machine learning to make predictions based on the dataset powerproduction. The goal is to produce a model that accurately predicts wind speed values. The web service will respond with predicted power values based on speed values sent as HTTP requests. 
 The assignment was implemented in Python Language.
 
 

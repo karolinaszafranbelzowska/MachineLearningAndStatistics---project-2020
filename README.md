@@ -9,6 +9,7 @@ This repository has been carried out as Assignment of the Machine Learning and S
 
 
 ## Content of The Github Repository
+
 - ReadMe.md
 - LICENSE
 - requirements.txt
@@ -19,9 +20,22 @@ This repository has been carried out as Assignment of the Machine Learning and S
 - sever.py
 
 ## Overwiev
-This project creates a web service that uses machine learning to make predictions based on the dataset powerproduction. The goal is to produce a model that accurately predicts wind speed values. The web service will respond with predicted power values based on speed values sent as HTTP requests. 
-The assignment was implemented in Python Language.
 
+This project creates a web service that uses machine learning to make predictions based on the dataset powerproduction. The goal is to produce a model that accurately predicts wind speed values. The web service will respond with predicted power values based on speed values sent as HTTP requests. 
+The assignment was implemented in Python Language. Here are all details: [here]()
+
+## Packages used in this project
+
+- Python 3 https://docs.python.org/3/
+- Numpy http://www.numpy.org/ 
+- Jupyter Notebook https://jupyter.org/ 
+- Pandas https://pandas.pydata.org/
+- Scipy.stats https://docs.scipy.org/doc/scipy/reference/stats.html
+- Matplotlib.pylab https://matplotlib.org/
+- Flask https://flask.palletsprojects.com/en/1.1.x/
+- Seaborn https://seaborn.pydata.org/
+- Tensorflow.keras https://www.tensorflow.org/, https://keras.io/
+- Scikit-learn https://scikit-learn.org/stable/
 
 ## References:
 

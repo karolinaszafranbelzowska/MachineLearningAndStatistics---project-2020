@@ -7,6 +7,10 @@
 
 This repository has been carried out as Assignment of the Machine Learning and Statistics Module of the Higher Diploma In Data Analytics at GMIT.
 
+
+## Content of The Github Repository
+- ReadMe.md
+- 
 The assignment was implemented in Python Language.
 
 

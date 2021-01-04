@@ -10,7 +10,14 @@ This repository has been carried out as Assignment of the Machine Learning and S
 
 ## Content of The Github Repository
 - ReadMe.md
-- 
+- LICENSE
+- requirements.txt
+- .gitignore
+- powerproduction.csv
+- MLS-project instructions 2020.pdf
+- ML_and_S_project.2020.ipynb
+- sever.py
+
 The assignment was implemented in Python Language.
 
 

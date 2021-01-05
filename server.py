@@ -4,34 +4,39 @@
 
 # Taken from - https://github.com/ianmcloughlin/random-app/blob/master/rando.py
 
-
+# libraries
 import flask as fl
-from flask import Flask
-import tensorflow.keras as kr
-from tensorflow.keras.models import load_model
+import numpy as np
 from tensorflow.keras.models import model_from_json
-import json #?
+from flask import Flask, url_for, request, redirect, abort, jsonify
 
-
-# tensorflow documentation on saving and loading a model - https://www.tensorflow.org/guide/keras/save_and_serialize
-# from tensorflow import keras - not working ?
-# model = load_model("model_w.h5")
-
-
-# Create a new web app.
-app = Flask(__name__)
-
+#Create a new web app.
+app = fl.Flask(__name__)
 
 # Add root route.
-# This will serve out the index.html page at the root
 @app.route("/")
 def home():
-  return app.send_static_file('index.html')
+  return app.send_static_file("index.html")
+# Prediction routine to run here
 
+def model_predict(wind):
+    wind = float(wind)
+    # load json and create model
+    json_file = open('model.json', 'r')
+    loaded_model_json = json_file.read()
+    json_file.close()
+    loaded_model = model_from_json(loaded_model_json)
 
+    # load weights into new model
+    loaded_model.load_weights("model.h5")
+    print("Loaded model from disk")
+    power = loaded_model.predict([wind])
+    power = round(float(power), 2)
+    return power
 
-
-
-
-if __name__ == '__main__':
-    app.run(debug= True)
+@app.route("/api/power/<wind>")
+def power_predict(wind):
+    return {"power" : model_predict(wind)}
+    
+if __name__ == "__main__":
+    app.run(debug= True) 

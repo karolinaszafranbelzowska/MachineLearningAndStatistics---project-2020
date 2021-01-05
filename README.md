@@ -43,16 +43,20 @@ The assignment was implemented in Python Language. Here are all details: [here](
 
 LINUX
 > export FLASK_APP=server.py
+
 > python3 -m flask run
 
 WINDOWS
 > set FLASK_APP=server.py
+
 > python -m flask run
 
 ## How to run Jupyter Notebook
 In the Comannd Prompt type the path to the folder where the project is located:
 > cd desktop
+
 > cd MachineLearningAndStatistics---project-2020
+
 > jupyter notebook
 
 

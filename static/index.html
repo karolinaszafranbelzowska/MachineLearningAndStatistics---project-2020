@@ -21,8 +21,11 @@
 
 
   <style>
+    body{
+      background-color:rgb(192, 223, 243);
+      }
     .header {
-        background-color:#7a8fec;
+        background-color:rgb(147, 156, 241);
         padding: 10px;
         text-align: center;
         margin: 20;
@@ -32,7 +35,7 @@
     .d2{
         padding: 40px;
         text-align: center;
-        background:rgb(184, 235, 248);
+        background:rgb(192, 223, 243);
       }
     #photo{
       float:left;
@@ -40,12 +43,85 @@
 	  #photo1{
       float:right;
       }
+    #wind-input{
+      background-color: rgb(46, 112, 11);
+		  border: none;
+		  color: rgb(14, 11, 11);
+		  width:200px;
+		  height:65px;
+		  margin:30px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 20px;
+		  align-self: center;
+		  }
+    #wind{
+      margin-top:30px;
+		  width:716px;
+		  padding:30px;
+		  border:2px solid, #CCCCCC;
+		  border-top-color:rgb(46, 112, 11);
+		  border-top-style:solid;
+		  border-top-width:2px;
+
+      border-right-color:rgb(46, 112, 11);
+		  border-right-style:solid;
+		  border-right-width:2px;
+		
+		  border-bottom-color:rgb(46, 112, 11);
+		  border-bottom-style:solid;
+		  border-bottom-width:2px;
+		
+		  border-left-color:rgb(46, 112, 11);
+		  border-left-style:solid;
+		  border-left-width:2px;
+		
+		  margin-right: 0px;
+		  margin-bottom: 0px;
+		  margin-left: 0px;
+		
+		  display: block;
+		  margin-inline-start: 2px;
+		  margin-inline-end: 2px;
+		  min-inline-size: min-content
+      }
+    #power{
+      margin-top:30px;
+		  width:300px;
+		  padding:30px;
+		  border:2px solid, #CCCCCC;
+		  border-top-color:rgb(46, 112, 11);
+		  border-top-style:solid;
+		  border-top-width:2px;
+
+      border-right-color:rgb(46, 112, 11);
+		  border-right-style:solid;
+		  border-right-width:2px;
+		
+		  border-bottom-color:rgb(46, 112, 11);
+		  border-bottom-style:solid;
+		  border-bottom-width:2px;
+		
+		  border-left-color:rgb(46, 112, 11);
+		  border-left-style:solid;
+		  border-left-width:2px;
+		
+		  margin-right: 0px;
+		  margin-bottom: 0px;
+		  margin-left: 0px;
+		
+		  display: block;
+		  margin-inline-start: 2px;
+		  margin-inline-end: 2px;
+		  min-inline-size: min-content
+      }
     
   </style>
   <body>
     <div class="d2">
-			<img id="photo" src="https://raw.githubusercontent.com/karolinaszafranbelzowska/Web_Application-Development/master/vegetables-png.png", width="500px", height="300px">
-			<img id="photo1" src="https://raw.githubusercontent.com/karolinaszafranbelzowska/Web_Application-Development/master/fruits-png.png", width="400px", height="300px">
+			<img id="photo" src="https://raw.githubusercontent.com/karolinaszafranbelzowska/MachineLearningAndStatistics---project-2020/main/images/wind-turbine.jpg", width="500px", height="300px">
+			<img id="photo1" src="https://raw.githubusercontent.com/karolinaszafranbelzowska/MachineLearningAndStatistics---project-2020/main/images/wind-turbine2.jpg", width="400px", height="300px">
 		</div>
 
     <div class="header">
@@ -53,19 +129,19 @@
       <h2>Predict power values based on speed values</h2>    
     </div>
 
-    <h1>Please enter a wind speed for corresponding power output-</h1>
+    <h1>Enter a wind speed:</h1>
     <div class="container">
         <div class="row">
           <div class="col-sm">
-            <input class="form-control" id="wind" type="text" placeholder="Wind Speed in m/s">
+            <input class="form-control" id="wind" type="text" placeholder="Speed value in m/s">
           </div>
         </div>
         <div class="row">
           <div class="col-sm">
-            <button type="button" class="btn btn-success" id="wind-input">Power</button>
+            <button type="button" class="btn" id="wind-input">Predicted power =======></button>
           </div>
           <div class="col-sm">
-            <input class="form-control" id="power" type="text" placeholder="Power Output">
+            <input class="form-control" id="power" type="text" placeholder="Power value">
           </div>
         </div>
       </div>

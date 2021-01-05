@@ -20,6 +20,8 @@ This repository has been carried out as Assignment of the Machine Learning and S
 - MLS-project instructions 2020.pdf
 - ML_and_S_project.2020.ipynb
 - sever.py
+- model.h5
+- model.json
 
 ## Overwiev
 

@@ -53,6 +53,11 @@ WINDOWS
 
 > python -m flask run
 
+Python is running in the background. It runs Flask Web Application.
+Copy a special IP address (http://127.0.0.1:5000/), go to the Browser and paste this address into the URL.
+My Web Application is running the function.
+Use CTRL + C to kill the application.
+
 ## How to run Jupyter Notebook
 In the Comannd Prompt type the path to the folder where the project is located:
 > cd desktop

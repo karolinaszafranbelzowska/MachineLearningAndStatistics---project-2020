@@ -20,6 +20,8 @@ This repository has been carried out as Assignment of the Machine Learning and S
 - MLS-project instructions 2020.pdf
 - ML_and_S_project.2020.ipynb
 - sever.py
+- model.h5
+- model.json
 
 ## Overwiev
 
@@ -50,6 +52,11 @@ WINDOWS
 > set FLASK_APP=server.py
 
 > python -m flask run
+
+Python is running in the background. It runs Flask Web Application.
+Copy a special IP address (http://127.0.0.1:5000/), go to the Browser and paste this address into the URL.
+My Web Application is running the function.
+Use CTRL + C to kill the application.
 
 ## How to run Jupyter Notebook
 In the Comannd Prompt type the path to the folder where the project is located:

@@ -67,9 +67,12 @@ Use CTRL + C to kill the application.
 It goes and build an image from my repository
 
 > docker run server-app
+
 > docker run -d -p 5000:5000 server-app
+
 > docker container ls
  (check if my container is running) 
+ 
 > docker kill (container ID)
 
 To delete use:
@@ -94,16 +97,9 @@ In the Comannd Prompt type the path to the folder where the project is located:
 
 - https://github.com/ianmcloughlin/jupyter-teaching-notebooks/blob/master/keras-neurons.ipynb, 02/01/2021
 - https://keras.io/, 02/01/2021
-
-https://en.wikipedia.org/wiki/Wind_turbine, 03/01/2021
-
-https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python4_DataAnalysis.html, 03/01/2021
-
-https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/, 03/01/2021
-
-https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/, 03/01/2021
-
-https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/, 03/01/221
+- https://en.wikipedia.org/wiki/Wind_turbine, 03/01/2021
+- https://www3.ntu.edu.sg/home/, 03/01/2021
+- https://machinelearningmastery.com/, 03/01/221
 
 GitHub repositories:
 

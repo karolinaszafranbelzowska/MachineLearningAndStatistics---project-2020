@@ -100,6 +100,11 @@ In the Comannd Prompt type the path to the folder where the project is located:
 - https://en.wikipedia.org/wiki/Wind_turbine, 03/01/2021
 - https://www3.ntu.edu.sg/home/, 03/01/2021
 - https://machinelearningmastery.com/, 03/01/221
+- https://www.w3schools.com/python/
+- https://en.wikipedia.org/wiki/Wind_turbine
+- https://en.wikipedia.org/wiki/Wind_power
+- https://ksopyla.com/machine-learning/modele-regresji-liniowej-z-scikit-learn/
+- https://ichi.pro/pl/algorytm-regresji-liniowej-od-podstaw-w-pythonie-253366674175694
 
 GitHub repositories:
 

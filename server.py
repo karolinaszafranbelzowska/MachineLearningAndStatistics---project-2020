@@ -6,12 +6,12 @@
 
 # libraries
 import flask as fl
-import numpy as np
+import numpy as np 
 from tensorflow.keras.models import model_from_json
 from flask import Flask, url_for, request, redirect, abort, jsonify
 
-#Create a new web app.
-app = fl.Flask(__name__)
+# Create a new web app.
+app = fl.Flask(__name__) # the main script in the program. 
 
 # Add root route.
 @app.route("/")
@@ -21,7 +21,7 @@ def home():
 
 def model_predict(wind):
     wind = float(wind)
-    # load json and create model
+    # load json and create model # not working
     json_file = open('model.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()

@@ -22,6 +22,7 @@ This repository has been carried out as Assignment of the Machine Learning and S
 - sever.py
 - model.h5
 - model.json
+- Dockerfile
 
 ## Overwiev
 

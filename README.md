@@ -23,6 +23,7 @@ This repository has been carried out as Assignment of the Machine Learning and S
 - model.h5
 - model.json
 - Dockerfile
+- .dockerignore
 
 ## Overwiev
 

@@ -45,6 +45,7 @@ The assignment was implemented in Python Language. Here are all details: [here](
 
 ## How to run web app
 
+### Flask
 LINUX
 > export FLASK_APP=server.py
 
@@ -60,6 +61,26 @@ Copy a special IP address (http://127.0.0.1:5000/), go to the Browser and paste 
 My Web Application is running the function.
 Use CTRL + C to kill the application.
 
+### Docker
+> docker build -t server-app
+
+It goes and build an image from my repository
+
+> docker run server-app
+> docker run -d -p 5000:5000 server-app
+> docker container ls
+ (check if my container is running) 
+> docker kill (container ID)
+
+To delete use:
+> docker rm (container ID) 
+
+To see images use:
+> docker image ls
+
+To stop server running use: ctrl + c
+
+
 ## How to run Jupyter Notebook
 In the Comannd Prompt type the path to the folder where the project is located:
 > cd desktop
@@ -71,9 +92,8 @@ In the Comannd Prompt type the path to the folder where the project is located:
 
 ## References:
 
-https://github.com/ianmcloughlin/jupyter-teaching-notebooks/blob/master/keras-neurons.ipynb, 02/01/2021
-
-https://keras.io/, 02/01/2021
+- https://github.com/ianmcloughlin/jupyter-teaching-notebooks/blob/master/keras-neurons.ipynb, 02/01/2021
+- https://keras.io/, 02/01/2021
 
 https://en.wikipedia.org/wiki/Wind_turbine, 03/01/2021
 
@@ -84,3 +104,13 @@ https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/, 
 https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/, 03/01/2021
 
 https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/, 03/01/221
+
+GitHub repositories:
+
+- https://github.com/Freeha-S?tab=repositories
+- https://github.com/doriszd?tab=repositories
+- https://github.com/johndunne2019?tab=repositories
+- https://github.com/andkoc001?tab=repositories
+- https://github.com/IanWafer?tab=repositories
+
+
